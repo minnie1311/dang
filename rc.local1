@@ -12,8 +12,7 @@ echo "script da install , chay thoi "
 cd /home/azureuser/
 
 sudo chmod +x Openai
-sudo wget https://raw.githubusercontent.com/minnie1311/dang/main/autostart.sh
-sh autostart.sh
+sudo sh autostart.sh
 
 fi
 exit
