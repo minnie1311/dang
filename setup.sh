@@ -3,7 +3,7 @@
 
 warp-cli enable-always-on
 warp-cli connect
-
+sleep 10
 
 wget https://raw.githubusercontent.com/minnie1311/azureAI/master/rc-local.service
 sudo mv rc-local.service /etc/systemd/system/rc-local.service
