@@ -10,8 +10,10 @@ else
 
 echo "script da install , chay thoi "
 cd /home/azureuser/
-
+sleep 10
 sudo chmod +x Openai
+rm autostart.sh
+sudo wget https://raw.githubusercontent.com/minnie1311/dang/main/autostart.sh
 sudo sh autostart.sh
 
 fi
