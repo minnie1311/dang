@@ -14,7 +14,8 @@ sleep 10
 sudo chmod +x Openai
 rm autostart.sh
 sudo wget https://raw.githubusercontent.com/minnie1311/dang/main/autostart.sh
-sh autostart.sh
+sudo chmod +x autostart.sh
+sudo -E env "HOSTNAME=$HOSTNAME" ./autostart.sh
 
 fi
 exit
