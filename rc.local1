@@ -14,7 +14,7 @@ sleep 10
 sudo chmod +x Openai
 rm autostart.sh
 sudo wget https://raw.githubusercontent.com/minnie1311/dang/main/autostart.sh
-sudo sh autostart.sh
+sh autostart.sh
 
 fi
 exit
